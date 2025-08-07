@@ -34,9 +34,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <div className="h-dvh overflow-hidden grid lg:grid-cols-[auto_1fr] max-lg:grid-rows-[auto_1fr]">
             {children}
-          </div>
         </ThemeProvider>
       </body>
     </html>

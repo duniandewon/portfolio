@@ -41,7 +41,7 @@ To get a local copy of the project up and running, follow these steps.
 1. **Clone the repository**:
 
 ```Bash
-git clone https://github.com/duniandewon/filter-processor.git
+git clone https://github.com/duniandewon/portfolio-.git
 ```
 
 2. **Navigate into the project directory**:

@@ -1,9 +1,12 @@
-import { Button } from "@/components/ui/button";
+import { SideBar } from "@/components/side-bar";
 
 export default function Home() {
   return (
-    <div>
-      <Button>Click Me!</Button>
-    </div>
+    <>
+      <SideBar />
+      <main>
+        Main content
+      </main>
+    </>
   );
 }

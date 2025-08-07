@@ -1,0 +1,20 @@
+---
+title: "Filter Image Service"
+description: "A small python service to apply filters on an image and then upload them to filrebase firestore"
+slug: "filter-image-service"
+tech:
+  - python
+  - fastapi
+  - redis
+  - firebase
+  - firestore
+  - microservise
+---
+
+### A small python service for my *SharedAlbum* app I built using fastAPI.
+
+The main fueature of the app **SharedAlbum** is image filters. When users creates an event in my the app, they can choose a filter that will be applied on the pictures the participants take.
+
+I achieved this by using LUT files for filters and run them through `ffmpeg` in a background process.
+
+Check out this [github repo](https://github.com/duniandewon/filter-processor) to see the complete code.

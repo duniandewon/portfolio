@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio
 
-## Getting Started
+A personal portfolio website built with Next.js to showcase my projects and skills. This site uses MDX to create detailed project pages, making it easy to share my work and insights.
 
-First, run the development server:
+### Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+You can see the live version of my portfolio here:
+
+[ttps://www.duniandewon.com](https://www.duniandewon.com)
+
+### Features
+
+- **Project Grid**: Projects are displayed in a clean, responsive grid with brief descriptions and quick access to their source code and live demos.
+
+- **Responsive Design**: The layout adapts to different screen sizes, providing a great user experience on any device.
+
+- **SEO-Friendly**: Built with Next.js, this site leverages server-side rendering (SSR) for better performance and search engine visibility.
+
+### Technologies Used
+
+- **Next.js**: A React framework for building fast, production-ready applications.
+
+- **React**: For building the user interface.
+
+- **MDX**: Enables writing JSX components within Markdown documents.
+
+- **Tailwind CSS**: A utility-first CSS framework for rapid styling.
+
+### Getting Started
+
+To get a local copy of the project up and running, follow these steps.
+
+**Prerequisites**:
+
+- Node.js (LTS version recommended)
+
+- pnpm
+
+### Installation:
+
+1. **Clone the repository**:
+
+```Bash
+git clone https://github.com/duniandewon/filter-processor.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Navigate into the project directory**:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```Bash
+cd duniandewon
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Install the dependencies**:
 
-## Learn More
+```Bash
+pnpm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. **Run the development server:**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```Bash
+pnpm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open http://localhost:3000 in your browser to view the project.
 
-## Deploy on Vercel
+### Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to connect with me!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Email: duniandewon@gmail.com
+
+GitHub: [https://github.com/duniandewon](https://github.com/duniandewon)
+
+LinkedIn: [https://linkedin.com/in/duniandewon](https://linkedin.com/in/duniandewon)

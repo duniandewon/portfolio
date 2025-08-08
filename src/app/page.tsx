@@ -1,4 +1,4 @@
-import { Project } from "@/components/ProjectItem";
+import { ProjectItem } from "@/components/ProjectItem";
 import { SideBar } from "@/components/side-bar";
 
 import { getAllProjects } from "@/lib/getAllProjects";
@@ -19,7 +19,7 @@ export default function Home() {
         </header>
         <div className="masonry-container columns-1 sm:columns-2 md:columns-3 lg:columns-4 space-y-4 h-full">
           {projects.map((project) => (
-            <Project project={project} key={project.meta.slug} />
+            <ProjectItem project={project} key={project.meta.slug} />
           ))}
         </div>
       </main>

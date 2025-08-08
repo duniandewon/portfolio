@@ -7,7 +7,7 @@ interface Props {
   project: Project;
 }
 
-export function Project({ project }: Props) {
+export function ProjectItem({ project }: Props) {
     const components = useMDXComponents();
   return (
     <div className="border rounded-md p-4 break-inside-avoid">

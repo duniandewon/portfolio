@@ -14,14 +14,14 @@ export function UserProfile({ avatarUrl, name, title }: Props) {
 
   return (
     <div className="grid max-lg:grid-cols-[auto_1fr] lg:justify-items-center items-center gap-2">
-      <div className="h-10 w-10 overflow-hidden rounded-full lg:h-35 lg:w-35">
+      <div className="overflow-hidden rounded-full w-[clamp(3rem,_8vw,_7rem)] h-[clamp(3rem,_8vw,_7rem)]">
         <Avatar className="h-full w-full">
           <AvatarImage src={avatarUrl} alt="profile" />
           <AvatarFallback>{initials}</AvatarFallback>
         </Avatar>
       </div>
       <div className="lg:text-center">
-        <h2 className="text-md lg:text-3xl font-medium">{name}</h2>
+        <h2 className="font-bold text-[clamp(1rem,_1.8vw,_1.75rem)]">{name}</h2>
         <p className="max-lg:text-sm">{title}</p>
       </div>
     </div>
